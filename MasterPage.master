@@ -1,0 +1,1058 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<title>SHELADIYA AJAY</title>
+<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<link rel="alternate" type="application/rss+xml" title="Selfer Demo &raquo; Feed" href="feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Selfer Demo &raquo; Comments Feed" href="comments/feed/index.html" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/demo.softhopper.net\/selfer\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' href='wp-content/plugins/contact-form-7/includes/css/styles.css' type='text/css' media='all' />
+<link rel='stylesheet' href='wp-content/themes/selfer/assets/bootstrap/css/bootstrap.min.css' type='text/css' media='all' />
+<link rel='stylesheet' href='wp-content/themes/selfer/assets/font-awesome/css/fontawesome-all.min.css' type='text/css' media='all' />
+<link rel='stylesheet' href='wp-content/themes/selfer/assets/css/magnific-popup.css' type='text/css' media='all' />
+<link rel='stylesheet' href='wp-content/themes/selfer/assets/css/odometer-theme-default.css' type='text/css' media='all' />
+<link rel='stylesheet' href='wp-content/themes/selfer/assets/css/owl.carousel.min.css' type='text/css' media='all' />
+<link rel='stylesheet' href='wp-content/themes/selfer/assets/css/blogs.css' type='text/css' media='all' />
+<link rel='stylesheet' href='wp-content/themes/selfer/assets/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet' href='wp-content/themes/selfer/style.css' type='text/css' media='all' />
+<style id='selfer-main-style-inline-css' type='text/css'>
+            a:hover, a:focus, a:active {color: #f26c4f; } label a {color: #f26c4f; } .top-nav-collapse.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li.active > a, .navbar-default .navbar-nav > li.active > a:focus, .navbar-default .navbar-nav > li.active > a:hover { color: #f26c4f !important; } .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {background-color: #f26c4f; border-color: #f26c4f;} .blog-item .blog-content .post-meta a { color: #f26c4f } .blog-item.sticky {border-bottom-color: #f26c4f} .signle-post-content .entry-content a { color: #f26c4f } .signle-post-content .entry-tag a {background: #f26c4f } .post-password-form input[type="submit"] {background: #f26c4f} .comments .single-comment-content .single-comment-content-head a.comment-reply-link {color: rgba(242,108,79,0.9)} .btn-dark, .comment-navigation a {background: rgba(242,108,79,0.9)} .btn-dark:hover, .btn-dark:active, .btn-dark:focus, .btn-dark:active:focus, .btn-dark.active.focus, .btn-dark.active:focus, .btn-dark.focus, .btn-dark:active:focus, .btn-dark:focus { color: rgba(242,108,79,0.9); border-color: rgba(242,108,79,0.9); } .single-comment-content a {color: rgba(242,108,79,0.9)} .comment-respond .logged-in-as a {color: rgba(242,108,79,0.9)} .searchform .btn {background: rgba(242,108,79,0.9)} .widget_calendar a, .widget a:hover {color: rgba(242,108,79,0.9)} .bg-blue-violet {background: #f26c4f} .pagination-block .pagination li.active a {background: #f26c4f} .blog-sidebar-content .widget-title:before, .blog-sidebar-content .widget-title:after {background: #f26c4f} .woocommerce nav.woocommerce-pagination ul li > span.current, .woocommerce-single-content .woocommerce-tabs ul.tabs li.active a {background: #f26c4f} .woocommerce span.onsale {background-color: #f26c4f} .woocommerce-single-content .single_add_to_cart_button {background: #f26c4f !important;} .contact-sticky-button {background: #f26c4f} .mini-service-list > li > i { background: #f26c4f } .site-branding-text .site-title { color: #f26c4f !important;  } @media only screen and (min-width: 768px) { .mainmenu > li > a:before { border-color: #f26c4f transparent transparent transparent } .mainmenu > li > a:after { border-bottom-color: #f26c4f } } .comment-reply-link:hover, .single-post-footer .entry-tag a:hover, .comment-respond #submit, .comment-respond .submit { background: #f26c4f; border-color:  #f26c4f;  } @media only screen and (max-width: 767px) { .mainmenu li a:after { border-top-color: #f26c4f; }} .preloader-icon span { background-color: #f26c4f; } .color-blue-violet { color: #f26c4f; } .single-post-footer .post-navigation a:hover .navigation-text { background-color: #f26c4f; border-color: #f26c4f; } .blog-page-content:not(.blog-single-page) .more-link:hover { background: #f26c4f; } .selfer-main-service-title:before, .selfer-main-service-title:after { background: #f26c4f; } body:not(.bbpress) .blog-single-page .entry-content .entry-title, body:not(.buddypress) .blog-single-page .entry-content .entry-title, .blog-page-content:not(.blog-single-page) .entry-title { color: #f26c4f; } .title-divider span:nth-child(1), .title-divider span:nth-child(2) { border-right-color: #f26c4f; } .title-divider:before, .title-divider:after { background: #f26c4f; }
+                            .home-branding-text .site-branding-text .site-title {color: #000000} .home-branding-text .site-branding-text .site-description {color: #ebebeb} .home-branding-text .navbar-nav > li > a {color: #191919}
+                                .mainmenu > li > a {color: #4c4c4c} .top-nav-collapse .site-title { color: #191919 !important; } .top-nav-collapse .site-description { color: #cccccc !important;} .banner-post .banner-text h2 {color: #ffffff} footer#ts-footer > div.selfer-footer {background: #ffffff; color: #343a40; } footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {color: #333333} footer a {color: #7f7f7f} @media only screen and (min-width: 992px) {.mainmenu .sub-menu, .mainmenu .sub-menu .sub-menu, .mainmenu .sub-menu .sub-menu .sub-menu {background: #1d2023  } .mainmenu .sub-menu li a {color: #f7f7f7}}
+                        .blog-page-home { background-image: url(); } .blog-page-home.banner-post {height: 648px;} .site-footer {background: #7540ee; color: #dedede;  } .site-footer a {color: #ffffff;}
+                        
+            
+            
+                        .blog-page-block {padding-top:195px;padding-bottom:125px;}@media (max-width: 768px){.blog-page-block {padding-top:195px;padding-bottom:135px;}}@media (max-width: 480px){.blog-page-block{padding-top:175px;padding-bottom:135px;}}                                
+body {font-family: Open Sans; color: #dfdfdf; }h1, h2, h3, h4, h5, h6 { font-family: Rubik; color: #ffffff;}body { font-size: 0.875rem;}.navigation .mainmenu > li > a { font-size: 1rem;}blockquote { font-size: 1.25rem;}.post .entry-title { font-size: 1.875rem;}h1 { font-size: 2.5rem;}h2 { font-size: 1.875rem;}h3 { font-size: 1.5rem;}h4 { font-size: 1.25rem;}h5 { font-size: 1.125rem;}h6 { font-size: 1rem;}.site-branding-text .site-title { font-family: Roboto; font-size: 1.25rem; color: #ffffff;}.site-branding-text .site-description { color: #666666;}
+</style>
+<link rel='stylesheet'   href='wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css' type='text/css' media='all' />
+<link rel='stylesheet'   href='wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet'   href='wp-content/plugins/elementor/assets/lib/animations/animations.min.css' type='text/css' media='all' />
+<link rel='stylesheet'   href='wp-content/plugins/elementor/assets/css/frontend.min.css' type='text/css' media='all' />
+<link rel='stylesheet'  href='wp-content/uploads/sites/20/elementor/css/global.css' type='text/css' media='all' />
+<link rel='stylesheet'  href='wp-content/uploads/sites/20/elementor/css/post-4.css' type='text/css' media='all' />
+<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C500%2C700%2C800&amp;subset=latin' type='text/css' media='all' />
+<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Rubik%3A300%2C400%2C500%2C700%2C800&amp;subset=latin' type='text/css' media='all' />
+<link rel='stylesheet'  href='http://fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C500%2C700%2C800&amp;subset=latin' type='text/css' media='all' />
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRubik%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7COpen+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic' type='text/css' media='all' />
+<script type='text/javascript' src='wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='wp-content/themes/selfer/assets/js/custom.hero.js'></script>
+<link rel='https://api.w.org/' href='wp-json/index.html' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.9" />
+<link rel="canonical" href="index.html" />
+<link rel='shortlink' href='index.html' />
+<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embedb7b6.json?url=https%3A%2F%2Fdemo.softhopper.net%2Fselfer%2F" />
+<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed5831?url=https%3A%2F%2Fdemo.softhopper.net%2Fselfer%2F&amp;format=xml" />
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		if (window.wfLogHumanRan) { return; }
+		window.wfLogHumanRan = true;
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('indexb813.html?wordfence_lh=1&amp;hid=746DD32BA0D91A867FDA1BB831F526BE');
+</script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="home page-template-default page page-id-4 wp-custom-logo elementor-default elementor-page elementor-page-4">
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+            <!-- /preloader-icon -->
+        </div>
+        <!-- /preloader-inner -->
+    </div><!-- /preloader -->
+
+
+
+    <div class="ts-page-wrapper" id="page-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+            <div class="container">
+                <div class="site-logo main-logo navbar-brand ts-push-down__50 position-absolute ts-bottom__0 bg-white pb-0 ts-z-index__1 ts-scroll">
+                    <a href="index.html" class="custom-logo-link" rel="home" itemprop="url">
+                        <img width="64" height="64" src="wp-content/uploads/sites/20/2018/10/cropped-logo-1.png" class="custom-logo" alt="Selfer Demo" itemprop="logo" /></a>
+                </div>
+                <!-- /.site-logo -->
+                <!--end navbar-brand-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--end navbar-toggler-->
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav d-block d-lg-flex ml-auto text-right">
+                        <ul id="menu-main-menu" class="mainmenu">
+                            <li id="menu-item-76" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-76"><a href="#hero-banner">Home</a></li>
+                            <li id="menu-item-77" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-77"><a href="#services-block">Services</a></li>
+                            <li id="menu-item-78" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-78"><a href="#about-me-block">About Me</a></li>
+                            <li id="menu-item-79" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-79"><a href="#skill-block">Skills</a></li>
+                            <li id="menu-item-80" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-80"><a href="#portfolio-block">Portfolio</a></li>
+                            <li id="menu-item-81" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-81"><a href="#clients-block">Clients</a></li>
+                            <li id="menu-item-82" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-82"><a href="#contact-block">Contact</a></li>
+                            <li id="menu-item-98" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-98"><a href="#">Pages</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-99" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99"><a href="blog/index.html">Blog Page</a></li>
+                                    <li id="menu-item-100" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-100"><a href="2018/10/22/the-shocking-revelation-of-portfolio/index.html">Blog Single Page</a></li>
+                                    <li id="menu-item-101" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-101"><a href="404.html">404 Page</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--end navbar-nav-->
+                </div>
+                <!--end collapse-->
+            </div>
+            <!--end container-->
+        </nav>
+ 
+        <div class="selfer-page-builder-content clearfix">
+            <div class="elementor elementor-4">
+                <div class="elementor-inner">
+                    <div class="elementor-section-wrap">
+                        <section data-id="ee02e9e" class="elementor-element elementor-element-ee02e9e elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" id="hero-banner" data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-no">
+                                <div class="elementor-row">
+                                    <div data-id="19c891c" class="elementor-element elementor-element-19c891c elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+                                        <div class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div data-id="f03daf8" class="elementor-element elementor-element-f03daf8 elementor-widget elementor-widget-selfer-banner" data-element_type="selfer-banner.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="ts-animate-hero-items inique-ts-hero-image">
+                                                            <div class="container position-relative h-100 ts-align__vertical">
+                                                                <div class="row w-100">
+                                                                    <div class="col-md-8">
+                                                                        <!--SOCIAL ICONS-->
+                                                                        <%--<figure class="ts-social-icons mb-4">
+                                                                            <a href="#" class="mr-3 text-dark ts-circle__xxs" target="_blank" rel="nofollow" data-bg-color="rgba(255,255,255,.8)">
+                                                                                <i class="fa fa-facebook-official"></i>
+                                                                            </a>
+                                                                            <a href="#" class="mr-3 text-dark ts-circle__xxs" target="_blank" rel="nofollow" data-bg-color="rgba(255,255,255,.8)">
+                                                                                <i class="fa fa-twitter"></i>
+                                                                            </a>
+                                                                            <a href="#" class="mr-3 text-dark ts-circle__xxs" target="_blank" rel="nofollow" data-bg-color="rgba(255,255,255,.8)">
+                                                                                <i class="fa fa-pinterest"></i>
+                                                                            </a>
+                                                                            <a href="#" class="mr-3 text-dark ts-circle__xxs" target="_blank" rel="nofollow" data-bg-color="rgba(255,255,255,.8)">
+                                                                                <i class="fa fa-slack"></i>
+                                                                            </a>
+                                                                            <a href="#" class="mr-3 text-dark ts-circle__xxs" target="_blank" rel="nofollow" data-bg-color="rgba(255,255,255,.8)">
+                                                                                <i class="fa fa-instagram"></i>
+                                                                            </a>
+                                                                        </figure>--%>
+
+                                                                        <!--TITLE -->
+                                                                        <h2>I am Sheladiya Ajay</h2>
+                                                                        <h2 class="ts-bubble-border">
+                                                                            <span class="ts-title-rotate">
+                                                                                <span class="active">Web Devloper</span>
+                                                                                <span class="">Desktop</span>
+                                                                                <span class="">Designer</span>
+                                                                                <span class="">Creative Person</span>
+                                                                            </span>
+                                                                        </h2>
+                                                                    </div>
+                                                                    <!--end col-md-8-->
+                                                                </div>
+                                                                <!--end row-->
+                                                                <a href="#services-block" class="ts-btn-effect position-absolute ts-bottom__0 ts-left__0 ts-scroll ml-3 mb-3 xsm-0">
+                                                                    <span class="ts-visible ts-circle__sm rounded-0 ts-bg-primary">
+                                                                        <i class="fa fa-arrow-down text-white"></i>
+                                                                    </span>
+                                                                    <span class="ts-hidden ts-circle__sm rounded-0">
+                                                                        <i class="fa fa-arrow-down text-white"></i>
+                                                                    </span>
+                                                                </a>
+                                                            </div>
+                                                            <div class="ts-background" >
+                                                                <div class="ts-background-image"  data-bg-image="wp-content/my Image/IMG_20200114_170530.jpg" style="background-color: #090c17;"></div>
+                                                                <%--<div class="ts-background-image" data-bg-image="http://demo.softhopper.net/selfer/wp-content/uploads/sites/20/2018/10/bg-hero.jpg"></div>--%>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section data-id="ade721c" class="elementor-element elementor-element-ade721c elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" id="services-block" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-row">
+                                    <div data-id="903372c" class="elementor-element elementor-element-903372c elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+                                        <div class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div data-id="1872621" class="elementor-element elementor-element-1872621 elementor-widget elementor-widget-heading" data-element_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <h2 class="elementor-heading-title elementor-size-default">My Services</h2>
+                                                    </div>
+                                                </div>
+                                                <div data-id="cc2b50b" class="elementor-element elementor-element-cc2b50b elementor-widget elementor-widget-html" data-element_type="html.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="text-center">
+                                                            <div class="title-divider">
+                                                                <span></span>
+                                                                <span></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div data-id="7a7588d" class="elementor-element elementor-element-7a7588d elementor-widget elementor-widget-slefer-service" data-element_type="slefer-service.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="row item-3">
+                                                            <div class="col-sm-6 col-md-4 col-xl-4">
+                                                                <div class="ts-item" data-animate="ts-fadeInUp">
+                                                                    <div class="ts-item-content">
+                                                                        <div class="ts-item-header">
+                                                                            <figure class="icon">
+                                                                                <img src="wp-content/uploads/sites/20/2018/10/icon-lcd.png" alt="Web Design">
+                                                                            </figure>
+                                                                        </div>
+                                                                        <div class="ts-item-body">
+                                                                            <h4>Web Design</h4>
+                                                                            <p class="mb-0">Duis molestie enim mattis gravida viverra. Fusce ut eros augue. Sed id mauris vel neque</p>
+                                                                        </div>
+                                                                        <div class="ts-item-footer">
+                                                                            <a href="#" data-toggle="modal" data-target="#modal" class="ts-link-arrow-effect" data-rel="30">
+                                                                                <span>Read More</span>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-6 col-md-4 col-xl-4">
+                                                                <div class="ts-item" data-animate="ts-fadeInUp">
+                                                                    <div class="ts-item-content">
+                                                                        <div class="ts-item-header">
+                                                                            <figure class="icon">
+                                                                                <img src="wp-content/uploads/sites/20/2018/10/icon-camera.png" alt="Photography">
+                                                                            </figure>
+                                                                        </div>
+                                                                        <div class="ts-item-body">
+                                                                            <h4>Photo Editing</h4>
+                                                                            <p class="mb-0">Fusce lorem ex, fringilla eget consequat ut, molestie sit amet nibh. Nullam vitae tincidunt</p>
+                                                                        </div>
+                                                                        <div class="ts-item-footer">
+                                                                            <a href="#" data-toggle="modal" data-target="#modal" class="ts-link-arrow-effect" data-rel="29">
+                                                                                <span>Read More</span>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div class="col-sm-6 col-md-4 col-xl-4">
+                                                                <div class="ts-item" data-animate="ts-fadeInUp">
+                                                                    <div class="ts-item-content">
+                                                                        <div class="ts-item-header">
+                                                                            <figure class="icon">
+                                                                                <img src="wp-content/uploads/sites/20/2018/10/icon-lcd.png" alt="App Developing">
+                                                                            </figure>
+                                                                        </div>
+                                                                        <div class="ts-item-body">
+                                                                            <h4>Web Developing</h4>
+                                                                            <p class="mb-0">Duis molestie enim mattis gravida viverra. Fusce ut eros augue. Sed id mauris vel neque</p>
+                                                                        </div>
+                                                                        <div class="ts-item-footer">
+                                                                            <a href="#" data-toggle="modal" data-target="#modal" class="ts-link-arrow-effect" data-rel="10">
+                                                                                <span>Read More</span>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <!-- /.row -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section data-id="9c27166" class="elementor-element elementor-element-9c27166 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" id="about-me-block" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-row">
+                                    <div data-id="ac5e4de" class="elementor-element elementor-element-ac5e4de elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+                                        <div class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div data-id="f7de86c" class="elementor-element elementor-element-f7de86c elementor-widget elementor-widget-heading" data-element_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <h2 class="elementor-heading-title elementor-size-default">About Me</h2>
+                                                    </div>
+                                                </div>
+                                                <div data-id="8116e70" class="elementor-element elementor-element-8116e70 elementor-widget elementor-widget-html" data-element_type="html.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="text-center">
+                                                            <div class="title-divider">
+                                                                <span></span>
+                                                                <span></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section data-id="a53a256" class="elementor-element elementor-element-a53a256 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-row">
+                                    <div data-id="6623961" class="elementor-element elementor-element-6623961 elementor-column elementor-col-50 elementor-top-column" data-element_type="column">
+                                        <div class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div data-id="764783a" class="elementor-element elementor-element-764783a elementor-widget elementor-widget-image" data-element_type="image.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-image">
+                                                            <img width="433" height="499" src="wp-content/my Image/20181110_153156.jpg"  />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-id="da2626b" class="elementor-element elementor-element-da2626b elementor-column elementor-col-50 elementor-top-column" data-element_type="column">
+                                        <div class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div data-id="a7f7f88" class="elementor-element elementor-element-a7f7f88 elementor-widget elementor-widget-selfer-about_me" data-element_type="selfer-about_me.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="selfer-about-me-content">
+                                                            <div class="row ts-align__vertical">
+                                                                <div class="col-lg-12">
+                                                                    <h4 class="ts-bubble-border selfer-bubble-border-title">Hi There</h4>
+                                                                    <div class="about-me-description">
+                                                                        <%--<p>In id nulla magna. Nullam posuere fermentum mattis. Nunc id dui at sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis, urna est ultricies eros, ac porta sem turpis quis leo. Nulla in feugiat elit.</p>--%>
+                                                                    </div>
+                                                                    <dl class="ts-column-count-2 additional-info-block">
+
+                                                                        <dt>Name:</dt>
+                                                                        <dd>Sheladiya Ajay</dd>
+
+                                                                        <dt >Email:</dt>
+                                                                        <dd style="width:230px;">sheladiyaajay8805@gmail.com</dd>
+
+                                                                        <dt>Phone:</dt>
+                                                                        <dd>+91 8485918805</dd>
+
+                                                                        <%--<dt>Twitter:</dt>
+                                                                        <dd>freelancer9</dd>--%>
+                                                                    </dl>
+
+                                                                    <a href="#" class="ts-btn-effect mr-2" target="_blank" rel="nofollow">
+                                                                        <span class="ts-visible btn btn-primary ts-btn-arrow">Contact Me</span>
+                                                                        <span class="ts-hidden btn btn-primary ts-btn-arrow" data-bg-color="#d44729">Contact Me</span>
+                                                                    </a>
+                                                                    
+                                                                </div>
+                                                                <!--  /.col-lg-12 -->
+                                                            </div>
+                                                            <!--  /.row -->
+                                                            <!--end row-->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section data-id="e1f2ec2" class="elementor-element elementor-element-e1f2ec2 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-row">
+                                    <div data-id="4b47b0a" class="elementor-element elementor-element-4b47b0a elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+                                        <div class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div data-id="dd75aaf" class="elementor-element elementor-element-dd75aaf elementor-widget elementor-widget-slefer-call-to-actions" data-element_type="slefer-call-to-actions.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="selfer-call-to-block">
+                                                            <div class="text-center px-5 pt-5 position-relative">
+                                                                <h3 class="my-3 call-to-title">Let’s Work Together On Your Next Project!</h3>
+
+                                                                <a href="#" class="btn btn-primary mr-2 ts-push-down__50 ts-has-talk-arrow" target="_blank" rel="nofollow">Hire Me Now!</a>
+                                                                <div class="ts-background ts-opacity__20" data-bg-image="http://demo.softhopper.net/selfer/wp-content/uploads/sites/20/2018/10/bg-keyboard.jpg"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section data-id="41aab12" class="elementor-element elementor-element-41aab12 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" id="skill-block" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-row">
+                                    <div data-id="6589876" class="elementor-element elementor-element-6589876 elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+                                        <div class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div data-id="20746dc" class="elementor-element elementor-element-20746dc elementor-widget elementor-widget-heading" data-element_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <h2 class="elementor-heading-title elementor-size-default">My Skills</h2>
+                                                    </div>
+                                                </div>
+                                                <div data-id="bb45d55" class="elementor-element elementor-element-bb45d55 elementor-widget elementor-widget-html" data-element_type="html.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="text-center">
+                                                            <div class="title-divider">
+                                                                <span></span>
+                                                                <span></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section data-id="3f41ef7" class="elementor-element elementor-element-3f41ef7 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-row">
+                                    <div data-id="4415202" class="elementor-element elementor-element-4415202 elementor-column elementor-col-50 elementor-top-column" data-element_type="column">
+                                        <div class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div data-id="c73489d" class="elementor-element elementor-element-c73489d elementor-widget elementor-widget-heading" data-element_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <h4 class="elementor-heading-title elementor-size-default">Every Day is a  New Challenge</h4>
+                                                    </div>
+                                                </div>
+                                                <div data-id="4165aaf" class="elementor-element elementor-element-4165aaf elementor-widget elementor-widget-text-editor" data-element_type="text-editor.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-text-editor elementor-clearfix">
+                                                            <p>In id nulla magna. Nullam posuere fermentum mattis. Nunc id dui at sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis, urna est ultricies eros, ac porta sem turpis quis leo. Nulla in feugiat elit.</p>
+                                                            <p>Phasellus accumsan scelerisque dolor, quis mattis justo bibendum non. Nulla sollicitudin turpis in enim elementum varius. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div data-id="827f09d" class="elementor-element elementor-element-827f09d elementor-widget elementor-widget-button" data-element_type="button.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-button-wrapper">
+                                                            <a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+                                                                <span class="elementor-button-content-wrapper">
+                                                                    <span class="elementor-button-text">Contact Me</span>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-id="bd34cbf" class="elementor-element elementor-element-bd34cbf elementor-column elementor-col-50 elementor-top-column" data-element_type="column">
+                                        <div class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div data-id="42f4b99" class="elementor-element elementor-element-42f4b99 elementor-widget elementor-widget-slefer-progressbar" data-element_type="slefer-progressbar.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="progress" data-progress-width="80%">
+                                                            <h5 class="ts-progress-title">Web Devloping</h5>
+                                                            <figure class="ts-progress-value"></figure>
+                                                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="80"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div data-id="38c9bbf" class="elementor-element elementor-element-38c9bbf elementor-widget elementor-widget-slefer-progressbar" data-element_type="slefer-progressbar.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="progress" data-progress-width="80%">
+                                                            <h5 class="ts-progress-title">Coding</h5>
+                                                            <figure class="ts-progress-value"></figure>
+                                                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="80"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div data-id="07127db" class="elementor-element elementor-element-07127db elementor-widget elementor-widget-slefer-progressbar" data-element_type="slefer-progressbar.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="progress" data-progress-width="60%">
+                                                            <h5 class="ts-progress-title">Copywriting</h5>
+                                                            <figure class="ts-progress-value"></figure>
+                                                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="60"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <%--<section data-id="3e7e703" class="elementor-element elementor-element-3e7e703 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" id="portfolio-block" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-row">
+                                    <div data-id="220b121" class="elementor-element elementor-element-220b121 elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+                                        <div class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div data-id="0b86d2b" class="elementor-element elementor-element-0b86d2b elementor-widget elementor-widget-heading" data-element_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <h2 class="elementor-heading-title elementor-size-default">Portfolio</h2>
+                                                    </div>
+                                                </div>
+                                                <div data-id="8989f6f" class="elementor-element elementor-element-8989f6f elementor-widget elementor-widget-html" data-element_type="html.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="text-center">
+                                                            <div class="title-divider">
+                                                                <span></span>
+                                                                <span></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section data-id="771937d" class="elementor-element elementor-element-771937d elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-row">
+                                    <div data-id="a0b412b" class="elementor-element elementor-element-a0b412b elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+                                        <div class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div data-id="f1f9d76" class="elementor-element elementor-element-f1f9d76 elementor-widget elementor-widget-slefer-portfolio" data-element_type="slefer-portfolio.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="card-columns ts-gallery ts-column-count-4">
+                                                            <a href="wp-content/uploads/sites/20/2018/10/img-work-01.png" class="card ts-gallery__item" data-animate="ts-fadeInUp">
+                                                                <div class="ts-gallery__item-description">
+                                                                    <h6 class="ts-opacity__50">Coding </h6>
+                                                                    <h4>Pehaz</h4>
+                                                                </div>
+                                                                <img src="wp-content/uploads/sites/20/2018/10/img-work-01-263x211.png" alt="Pehaz" title=" img-work-01 " />
+                                                            </a>
+                                                            <a href="wp-content/uploads/sites/20/2018/10/img-work-02.png" class="card ts-gallery__item" data-animate="ts-fadeInUp">
+                                                                <div class="ts-gallery__item-description">
+                                                                    <h6 class="ts-opacity__50">Webdesign </h6>
+                                                                    <h4>Carilo</h4>
+                                                                </div>
+                                                                <img src="wp-content/uploads/sites/20/2018/10/img-work-02-263x281.png" alt="Carilo" title=" img-work-02 " />
+                                                            </a>
+                                                            <a href="wp-content/uploads/sites/20/2018/10/img-work-03.png" class="card ts-gallery__item" data-animate="ts-fadeInUp">
+                                                                <div class="ts-gallery__item-description">
+                                                                    <h6 class="ts-opacity__50">Product Design </h6>
+                                                                    <h4>Typography</h4>
+                                                                </div>
+                                                                <img src="wp-content/uploads/sites/20/2018/10/img-work-03-263x211.png" alt="Typography" title=" img-work-03 " />
+                                                            </a>
+                                                            <a href="wp-content/uploads/sites/20/2018/10/img-work-04.png" class="card ts-gallery__item" data-animate="ts-fadeInUp">
+                                                                <div class="ts-gallery__item-description">
+                                                                    <h6 class="ts-opacity__50">Coding </h6>
+                                                                    <h4>Identity</h4>
+                                                                </div>
+                                                                <img src="wp-content/uploads/sites/20/2018/10/img-work-04-263x358.png" alt="Identity" title=" img-work-04 " />
+                                                            </a>
+                                                            <a href="wp-content/uploads/sites/20/2018/10/img-work-05.png" class="card ts-gallery__item" data-animate="ts-fadeInUp">
+                                                                <div class="ts-gallery__item-description">
+                                                                    <h6 class="ts-opacity__50">Coding </h6>
+                                                                    <h4>SawMill</h4>
+                                                                </div>
+                                                                <img src="wp-content/uploads/sites/20/2018/10/img-work-05-263x358.png" alt="SawMill" title=" img-work-05 " />
+                                                            </a>
+                                                            <a href="wp-content/uploads/sites/20/2018/10/img-work-06.png" class="card ts-gallery__item" data-animate="ts-fadeInUp">
+                                                                <div class="ts-gallery__item-description">
+                                                                    <h6 class="ts-opacity__50">Webdesign </h6>
+                                                                    <h4>Browar</h4>
+                                                                </div>
+                                                                <img src="wp-content/uploads/sites/20/2018/10/img-work-06-263x281.png" alt="Browar" title=" img-work-06 " />
+                                                            </a>
+                                                            <a href="wp-content/uploads/sites/20/2018/10/img-work-07.png" class="card ts-gallery__item" data-animate="ts-fadeInUp">
+                                                                <div class="ts-gallery__item-description">
+                                                                    <h6 class="ts-opacity__50">Experiment </h6>
+                                                                    <h4>Experiment</h4>
+                                                                </div>
+                                                                <img src="wp-content/uploads/sites/20/2018/10/img-work-07-263x184.png" alt="Experiment" title=" img-work-07 " />
+                                                            </a>
+                                                            <a href="wp-content/uploads/sites/20/2018/10/img-work-08.png" class="card ts-gallery__item" data-animate="ts-fadeInUp">
+                                                                <div class="ts-gallery__item-description">
+                                                                    <h6 class="ts-opacity__50">Product Design </h6>
+                                                                    <h4>Air Purifier</h4>
+                                                                </div>
+                                                                <img src="wp-content/uploads/sites/20/2018/10/img-work-08-263x358.png" alt="Air Purifier" title=" img-work-08 " />
+                                                            </a>
+                                                            <a href="wp-content/uploads/sites/20/2018/10/img-work-10.png" class="card ts-gallery__item" data-animate="ts-fadeInUp">
+                                                                <div class="ts-gallery__item-description">
+                                                                    <h6 class="ts-opacity__50">App Developing </h6>
+                                                                    <h4>Boombox</h4>
+                                                                </div>
+                                                                <img src="wp-content/uploads/sites/20/2018/10/img-work-10-263x281.png" alt="Boombox" title=" img-work-10 " />
+                                                            </a>
+                                                            <a href="wp-content/uploads/sites/20/2018/10/img-work-11.png" class="card ts-gallery__item" data-animate="ts-fadeInUp">
+                                                                <div class="ts-gallery__item-description">
+                                                                    <h6 class="ts-opacity__50">3D Art </h6>
+                                                                    <h4>The Deer</h4>
+                                                                </div>
+                                                                <img src="wp-content/uploads/sites/20/2018/10/img-work-11-263x358.png" alt="The Deer" title=" img-work-11 " />
+                                                            </a>
+                                                            <a href="wp-content/uploads/sites/20/2018/10/img-work-09.png" class="card ts-gallery__item" data-animate="ts-fadeInUp">
+                                                                <div class="ts-gallery__item-description">
+                                                                    <h6 class="ts-opacity__50">Dafont </h6>
+                                                                    <h4>Rebranding</h4>
+                                                                </div>
+                                                                <img src="wp-content/uploads/sites/20/2018/10/img-work-09-263x211.png" alt="Rebranding" title=" img-work-09 " />
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>--%>
+                        <section data-id="f6399d8" class="elementor-element elementor-element-f6399d8 elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-no">
+                                <div class="elementor-row">
+                                    <div data-id="2a2c79d" class="elementor-element elementor-element-2a2c79d elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+                                        <div class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div data-id="cedc163" class="elementor-element elementor-element-cedc163 elementor-widget elementor-widget-selfer-counter" data-element_type="selfer-counter.default">
+                                                    <div class="elementor-widget-container">
+
+                                                        <div class="counter-ts-block" data-bg-image="http://demo.softhopper.net/selfer/wp-content/uploads/sites/20/2018/10/bg-man-sitting.jpg">
+                                                            <div class="container ts-promo-numbers">
+                                                                <div class="row counter-loop">
+                                                                    <div class="col-sm-6 col-md-3">
+                                                                        <div class="ts-promo-number text-center ts-has-divider">
+                                                                            <figure class="odometer" data-odometer-final="0">0</figure>
+                                                                            <h5>Clients</h5>
+                                                                        </div>
+                                                                        <!--end ts-promo-number-->
+                                                                    </div>
+                                                                    <div class="col-sm-6 col-md-3">
+                                                                        <div class="ts-promo-number text-center ts-has-divider">
+                                                                            <figure class="odometer" data-odometer-final="2">0</figure>
+                                                                            <h5>Projects</h5>
+                                                                        </div>
+                                                                        <!--end ts-promo-number-->
+                                                                    </div>
+                                                                    <div class="col-sm-6 col-md-3">
+                                                                        <div class="ts-promo-number text-center ts-has-divider">
+                                                                            <figure class="odometer" data-odometer-final="0">0</figure>
+                                                                            <h5>Awards</h5>
+                                                                        </div>
+                                                                        <!--end ts-promo-number-->
+                                                                    </div>
+                                                                    <div class="col-sm-6 col-md-3">
+                                                                        <div class="ts-promo-number text-center ts-has-divider">
+                                                                            <figure class="odometer" data-odometer-final="2">0</figure>
+                                                                            <h5>Years Experirnce</h5>
+                                                                        </div>
+                                                                        <!--end ts-promo-number-->
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!--  /.ts-promo-numbers -->
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                       
+                        <%--<section data-id="4e609e2" class="elementor-element elementor-element-4e609e2 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-row">
+                                    <div data-id="abc6de0" class="elementor-element elementor-element-abc6de0 elementor-column elementor-col-20 elementor-top-column" data-element_type="column">
+                                        <div class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div data-id="2968c27" class="elementor-element elementor-element-2968c27 elementor-widget elementor-widget-image" data-element_type="image.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-image">
+                                                            <a href="#" data-elementor-open-lightbox="">
+                                                                <img width="153" height="34" src="wp-content/uploads/sites/20/2018/10/logo-01-w.png" class="attachment-large size-large" alt="" srcset="https://demo.softhopper.net/selfer/wp-content/uploads/sites/20/2018/10/logo-01-w.png 153w, https://demo.softhopper.net/selfer/wp-content/uploads/sites/20/2018/10/logo-01-w-150x34.png 150w" sizes="(max-width: 153px) 100vw, 153px" />
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-id="4ce6137" class="elementor-element elementor-element-4ce6137 elementor-column elementor-col-20 elementor-top-column" data-element_type="column">
+                                        <div class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div data-id="09ab93a" class="elementor-element elementor-element-09ab93a elementor-widget elementor-widget-image" data-element_type="image.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-image">
+                                                            <a href="#" data-elementor-open-lightbox="">
+                                                                <img width="82" height="54" src="wp-content/uploads/sites/20/2018/10/logo-02-w.png" class="attachment-large size-large" alt="" />
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-id="4901626" class="elementor-element elementor-element-4901626 elementor-column elementor-col-20 elementor-top-column" data-element_type="column">
+                                        <div class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div data-id="98c8e4e" class="elementor-element elementor-element-98c8e4e elementor-widget elementor-widget-image" data-element_type="image.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-image">
+                                                            <a href="#" data-elementor-open-lightbox="">
+                                                                <img width="106" height="40" src="wp-content/uploads/sites/20/2018/10/logo-03-w.png" class="attachment-large size-large" alt="" />
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-id="6c8ecad" class="elementor-element elementor-element-6c8ecad elementor-column elementor-col-20 elementor-top-column" data-element_type="column">
+                                        <div class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div data-id="14be8c6" class="elementor-element elementor-element-14be8c6 elementor-widget elementor-widget-image" data-element_type="image.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-image">
+                                                            <a href="#" data-elementor-open-lightbox="">
+                                                                <img width="114" height="42" src="wp-content/uploads/sites/20/2018/10/logo-04-w.png" class="attachment-large size-large" alt="" />
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-id="f3957e2" class="elementor-element elementor-element-f3957e2 elementor-column elementor-col-20 elementor-top-column" data-element_type="column">
+                                        <div class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div data-id="a952046" class="elementor-element elementor-element-a952046 elementor-widget elementor-widget-image" data-element_type="image.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-image">
+                                                            <a href="#" data-elementor-open-lightbox="">
+                                                                <img width="124" height="36" src="wp-content/uploads/sites/20/2018/10/logo-05-w.png" class="attachment-large size-large" alt="" />
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>--%>
+                        <section data-id="d6418a4" class="elementor-element elementor-element-d6418a4 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" id="contact-block" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" data-element_type="section">
+                            <div class="elementor-background-overlay"></div>
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-row">
+                                    <div data-id="4efee17" class="elementor-element elementor-element-4efee17 elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+                                        <div class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div data-id="84b1d77" class="elementor-element elementor-element-84b1d77 elementor-widget elementor-widget-selfer-headings" data-element_type="selfer-headings.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="selfer-title-heading ts-title text-center">
+                                                            <h2 class="ts-bubble-border selfer-bubble-border-title">Get In Touch</h2>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div data-id="b70341c" class="elementor-element elementor-element-b70341c elementor-widget elementor-widget-selfer-contact-info" data-element_type="selfer-contact-info.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="row ts-xs-text-center">
+
+                                                            <div class="col-sm-6 col-md-3 mb-4 selfer-contact-info" data-animate="ts-fadeInUp">
+                                                                <img src="wp-content/uploads/sites/20/2018/10/icon-pin.png" class="mb-4" alt="Address">
+                                                                <h5>Address</h5>
+                                                                <div class="contact_descriptions">
+                                                                    _______________
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-6 col-md-3 mb-4 selfer-contact-info" data-animate="ts-fadeInUp">
+                                                                <img src="wp-content/uploads/sites/20/2018/10/icon-phone-02.png" class="mb-4" alt="Phone">
+                                                                <h5>Phone</h5>
+                                                                <div class="contact_descriptions">
+                                                                    +91 8485918805 
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-6 col-md-3 mb-4 selfer-contact-info" data-animate="ts-fadeInUp">
+                                                                <img src="wp-content/uploads/sites/20/2018/10/icon-envelope.png" class="mb-4" alt="Email">
+                                                                <h5>Email</h5>
+                                                                <div class="contact_descriptions">
+                                                                    sheladiyaajay8805@gmail.com
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-sm-6 col-md-3 mb-4 selfer-contact-info" data-animate="ts-fadeInUp">
+                                                                <img src="wp-content/uploads/sites/20/2018/10/icon-talk-bubble.png" class="mb-4" alt="Facebook Chat">
+                                                                <h5>Facebook Chat</h5>
+                                                                <div class="contact_descriptions"></div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <section data-id="7d381dc" class="elementor-element elementor-element-7d381dc elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-element_type="section">
+                                                    <div class="elementor-container elementor-column-gap-default">
+                                                        <div class="elementor-row">
+                                                            <div data-id="dd9fb40" class="elementor-element elementor-element-dd9fb40 elementor-column elementor-col-100 elementor-inner-column" data-element_type="column">
+                                                                <div class="elementor-column-wrap elementor-element-populated">
+                                                                    <div class="elementor-widget-wrap">
+                                                                        <div data-id="2593cf3" class="elementor-element elementor-element-2593cf3 elementor-widget elementor-widget-heading" data-element_type="heading.default">
+                                                                            <div class="elementor-widget-container">
+                                                                                <h2 class="elementor-heading-title elementor-size-default">Let’s Connect</h2>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div data-id="ebfccfd" class="elementor-element elementor-element-ebfccfd elementor-widget elementor-widget-slefer-social-profile" data-element_type="slefer-social-profile.default">
+                                                                            <div class="elementor-widget-container">
+
+                                                                                <div class="d-md-flex justify-content-between selfer-social-items">
+
+                                                                                    <a href="#" class="mb-3 d-flex text-white ts-align__vertical" target="_blank" rel="nofollow">
+                                                                                        <span class="ts-circle__xs border ts-border-transparent mr-4" data-bg-color="#f26c4f">
+                                                                                            <i class="fa fa-facebook"></i>
+                                                                                        </span>
+                                                                                        <span class="social-title">Facebook</span>
+                                                                                    </a>
+                                                                                    <!--end link-->
+
+                                                                                    <a href="#" class="mb-3 d-flex text-white ts-align__vertical" target="_blank" rel="nofollow">
+                                                                                        <span class="ts-circle__xs border ts-border-transparent mr-4" data-bg-color="#f26c4f">
+                                                                                            <i class="fa fa-twitter"></i>
+                                                                                        </span>
+                                                                                        <span class="social-title">Twitter</span>
+                                                                                    </a>
+                                                                                    <!--end link-->
+
+                                                                                    <a href="#" class="mb-3 d-flex text-white ts-align__vertical" target="_blank" rel="nofollow">
+                                                                                        <span class="ts-circle__xs border ts-border-transparent mr-4" data-bg-color="#f26c4f">
+                                                                                            <i class="fa fa-instagram"></i>
+                                                                                        </span>
+                                                                                        <span class="social-title">Instagram</span>
+                                                                                    </a>
+                                                                                    <!--end link-->
+
+                                                                                    <a href="#" class="mb-3 d-flex text-white ts-align__vertical" target="_blank" rel="nofollow">
+                                                                                        <span class="ts-circle__xs border ts-border-transparent mr-4" data-bg-color="#f26c4f">
+                                                                                            <i class="fa fa-pinterest"></i>
+                                                                                        </span>
+                                                                                        <span class="social-title">Pinterest</span>
+                                                                                    </a>
+                                                                                    <!--end link-->
+
+                                                                                    <a href="#" class="mb-3 d-flex text-white ts-align__vertical" target="_blank" rel="nofollow">
+                                                                                        <span class="ts-circle__xs border ts-border-transparent mr-4" data-bg-color="#f26c4f">
+                                                                                            <i class="fa fa-skype"></i>
+                                                                                        </span>
+                                                                                        <span class="social-title">Skype</span>
+                                                                                    </a>
+                                                                                    <!--end link-->
+
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                                <%--<section data-id="a6c3b80" class="elementor-element elementor-element-a6c3b80 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section" data-element_type="section">
+                                                    <div class="elementor-container elementor-column-gap-default">
+                                                        <div class="elementor-row">
+                                                            <div data-id="d795acb" class="elementor-element elementor-element-d795acb elementor-column elementor-col-100 elementor-inner-column" data-element_type="column">
+                                                                <div class="elementor-column-wrap elementor-element-populated">
+                                                                    <div class="elementor-widget-wrap">
+                                                                        <div data-id="4f37e17" class="elementor-element elementor-element-4f37e17 elementor-widget elementor-widget-heading" data-element_type="heading.default">
+                                                                            <div class="elementor-widget-container">
+                                                                                <h2 class="elementor-heading-title elementor-size-default">Sent Me A Messege</h2>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div data-id="2328089" class="elementor-element elementor-element-2328089 elementor-widget elementor-widget-selfer-contact_form_7" data-element_type="selfer-contact_form_7.default">
+                                                                            <div class="elementor-widget-container">
+                                                                                <div role="form" class="wpcf7" id="wpcf7-f70-p4-o1" lang="en-US" dir="ltr">
+                                                                                    <div class="screen-reader-response"></div>
+                                                                                    <form action="https://demo.softhopper.net/selfer/#wpcf7-f70-p4-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+                                                                                        <div style="display: none;">
+                                                                                            <input type="hidden" name="_wpcf7" value="70" />
+                                                                                            <input type="hidden" name="_wpcf7_version" value="5.0.5" />
+                                                                                            <input type="hidden" name="_wpcf7_locale" value="en_US" />
+                                                                                            <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f70-p4-o1" />
+                                                                                            <input type="hidden" name="_wpcf7_container_post" value="4" />
+                                                                                        </div>
+                                                                                        <div id="form-contact">
+                                                                                            <div class="row">
+                                                                                                <div class="col-md-6 col-sm-6">
+                                                                                                    <div class="form-group">
+                                                                                                        <label>Name *</label><span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" /></span>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                                <div class="col-md-6 col-sm-6">
+                                                                                                    <div class="form-group">
+                                                                                                        <label>Email *</label><span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" aria-required="true" aria-invalid="false" /></span>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="form-group">
+                                                                                                <label>Subject *</label><span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text form-control" aria-invalid="false" /></span>
+                                                                                            </div>
+                                                                                            <div class="row">
+                                                                                                <div class="col-md-12">
+                                                                                                    <div class="form-group">
+                                                                                                        <label>Message *</label><span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="5" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false"></textarea></span>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                            <div class="form-group clearfix">
+                                                                                                <input type="submit" value="Send a Message" class="wpcf7-form-control wpcf7-submit btn btn-primary float-right ts-btn-arrow" />
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="wpcf7-response-output wpcf7-display-none"></div>
+                                                                                    </form>
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </section>--%>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+         
+    
+    <!-- Modal -->
+        <div class="modal fade text-dark" id="modal" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content border-0 rounded-0">
+                    <div id="post-modal-container">
+                    </div>
+                    <!-- /#post-modal-container  -->
+                </div>
+                <!--end modal-content-->
+            </div>
+            <!--end modal-dialog-->
+        </div>
+       
+</div><!--end page--> 
+
+
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        <footer id="ts-footer" class="selfer-footer-wrapper">
+            <div class="selfer-footer">
+                <div class="container py-3 position-relative">
+                    <small class="copyright-text">Copyright &copy; 2018  Developed By - <a href="#">Sheladiya Ajay</a></small>
+                    <a href="#page-top" class="ts-circle__xs rounded-0 bg-dark position-absolute ts-right__0 ts-top__0 ts-push-up__50 ts-footer-scroll">
+                        <i class="fa fa-arrow-up text-white"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </form>
+<script type='text/javascript' src='wp-content/plugins/selfer-core/elementor/assets/js/front-end-widget.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/demo.softhopper.net\/selfer\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/scripts.js'></script>
+<script type='text/javascript' src='wp-content/themes/selfer/assets/js/popper.min.js'></script>
+<script type='text/javascript' src='wp-content/themes/selfer/assets/bootstrap/js/bootstrap.min.js'></script>
+<script type='text/javascript' src='wp-includes/js/imagesloaded.min.js'></script>
+<script type='text/javascript' src='wp-content/themes/selfer/assets/js/isInViewport.jquery.js'></script>
+<script type='text/javascript' src='wp-content/themes/selfer/assets/js/jquery.magnific-popup.min.js'></script>
+<script type='text/javascript' src='wp-content/themes/selfer/assets/js/scrolla.jquery.min.js'></script>
+<script type='text/javascript' src='wp-content/themes/selfer/assets/js/jquery.validate.min.js'></script>
+<script type='text/javascript' src='wp-content/themes/selfer/assets/js/jquery-validate.bootstrap-tooltip.min.js'></script>
+<script type='text/javascript' src='wp-content/themes/selfer/assets/js/odometer.min.js'></script>
+<script type='text/javascript' src='wp-content/themes/selfer/assets/js/jquery.fitvids.js'></script>
+<script type='text/javascript' src='wp-content/themes/selfer/assets/js/owl.carousel.min.js'></script>
+<script type='text/javascript' src='wp-content/themes/selfer/assets/js/custom.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var selfer = {"ajaxurl":"https:\/\/demo.softhopper.net\/selfer\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/themes/selfer/assets/custom/custom.js'></script>
+<script type='text/javascript' src='wp-includes/js/wp-embed.min.js'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/position.min.js'></script>
+<script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js'></script>
+<script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js'></script>
+<script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/swiper/swiper.jquery.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var elementorFrontendConfig = {"isEditMode":"","is_rtl":"","breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"2.3.2","urls":{"assets":"https:\/\/demo.softhopper.net\/selfer\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"general":{"elementor_global_image_lightbox":"yes","elementor_enable_lightbox_in_editor":"yes"}},"post":{"id":4,"title":"Home","excerpt":""}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/elementor/assets/js/frontend.min.js'></script>
+</body>
+</html>
